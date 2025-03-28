@@ -21,6 +21,26 @@ const AZURE_MODELS: ModelConfigurationParams[] = [
       },
     },
   },
+  {
+    name: "azure/gpt-4o",
+    label: "GPT-4o (Azure)",
+    isNew: false,
+    config: {
+      provider: "azure_openai",
+      temperatureRange: {
+        min: 0,
+        max: 1,
+        default: 0.5,
+        current: 0.5,
+      },
+      maxTokens: {
+        min: 1,
+        max: 4096,
+        default: 4096,
+        current: 4096,
+      },
+    },
+  },
 ];
 
 const OPENAI_MODELS: ModelConfigurationParams[] = [
