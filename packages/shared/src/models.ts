@@ -426,7 +426,7 @@ const GEMINI_MODELS: ModelConfigurationParams[] = [
 
 export const LANGCHAIN_USER_ONLY_MODELS = [
   "o1",
-  "gpt-4o",
+  // "gpt-4o",
   "gpt-4.5-preview",
   "claude-3-5-sonnet-latest",
   "claude-3-7-sonnet-latest",
